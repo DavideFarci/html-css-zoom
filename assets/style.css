@@ -2,5 +2,65 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Whitney', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    max-width: 1800px;
+}
+
+.box-cmd {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 0px 2.5rem 0;
+}
+
+.cmd-up {
+    color: white;
+    background-color: #4A4A4A;
+    font-size: 1rem;
+    margin-right: 5px;
+    padding: 0.3rem;
+    border-radius: 5px;
+}
+
+.cmd-up > * {
+    margin-right: 5px;
+}
+
+.webcams {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 85%;
+    height: 80vh;
+    overflow: scroll;
+    scroll-snap-type: none;
+    
+}
+
+.cams{
+    width: calc(100% / 7 - 10px);
+    /* height: 150px; */
+    /* background-color: salmon; */
+    border: 1px solid black;
+    margin: 10px 5px;
+}
+
+.cams img {
+    width: 100%;
+}
+
+footer {
+    height: 4.5rem;
+    background-color: #222222;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
