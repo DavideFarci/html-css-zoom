@@ -64,6 +64,10 @@ body {
     height: 100%;
 }
 
+.cams img:hover{
+    cursor: pointer;
+}
+
 footer {
     height: 4.5rem;
     background-color: #222222;
