@@ -22,10 +22,11 @@ body {
 .cmd-up {
     color: white;
     background-color: #4A4A4A;
-    font-size: 1rem;
+    font-size: 0.9rem;
     margin-right: 5px;
     padding: 0.3rem;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .cmd-up > * {
@@ -40,8 +41,6 @@ body {
     width: 85%;
     height: 80vh;
     overflow: scroll;
-    scroll-snap-type: none;
-    
 }
 
 .cams{
@@ -63,4 +62,44 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.cmd-btm-sx, .cmd-btm-center {
+    color: white;
+    font-size: 1.8rem;
+    display: flex;
+}
+
+.cmd-footer {
+    margin-inline: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+#green {
+    color: #4bc800;
+}
+
+i > div {
+    margin-top: 4px;
+    font-size: 0.8rem;
+}
+
+.fa-chevron-up {
+    font-size: 0.7rem;
+    margin-top: 21px;
+}
+
+.cmd-btm-dx {
+    background-color:#4A4A4A ;
+    color: red;
+    font-size: 1rem;
+    padding: 1.5rem;
+    cursor: pointer;
 }
