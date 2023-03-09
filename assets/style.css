@@ -41,18 +41,27 @@ body {
     width: 85%;
     height: 80vh;
     overflow: scroll;
+    overflow-x: hidden;
 }
 
 .cams{
     width: calc(100% / 7 - 10px);
-    /* height: 150px; */
-    /* background-color: salmon; */
-    border: 1px solid black;
     margin: 10px 5px;
+    position: relative;
+}
+
+.name {
+    background-color: #4A4A4A;
+    color: white;
+    font-size: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
 
 .cams img {
     width: 100%;
+    height: 100%;
 }
 
 footer {
@@ -103,3 +112,4 @@ i > div {
     padding: 1.5rem;
     cursor: pointer;
 }
+
