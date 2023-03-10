@@ -40,8 +40,8 @@ body {
     flex-wrap: wrap;
     /* width: 95%; */
     height: 87vh;
-    overflow: scroll;
-    overflow-x: hidden;
+    overflow-y: auto;
+    /* overflow-x: hidden; */
 }
 
 .cams{
