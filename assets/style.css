@@ -10,13 +10,13 @@ body {
 }
 
 .container {
-    max-width: 1800px;
+    max-width: 2000px;
 }
 
 .box-cmd {
     display: flex;
     justify-content: flex-end;
-    margin: 10px 0px 2.5rem 0;
+    margin: 10px 0px 14px 0;
 }
 
 .cmd-up {
@@ -38,8 +38,8 @@ body {
     margin: auto;
     justify-content: center;
     flex-wrap: wrap;
-    width: 85%;
-    height: 80vh;
+    /* width: 95%; */
+    height: 87vh;
     overflow: scroll;
     overflow-x: hidden;
 }
@@ -53,19 +53,23 @@ body {
 .name {
     background-color: #4A4A4A;
     color: white;
-    font-size: 0.8rem;
+    font-size: 1.1rem;
     position: absolute;
     left: 0;
     bottom: 0;
+    padding: 0.2rem;
 }
 
 .cams img {
+    display: block;
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
 }
 
 .cams img:hover{
     cursor: pointer;
+    box-shadow: 5px 5px 5px white;
+
 }
 
 footer {
@@ -87,12 +91,22 @@ footer {
     display: flex;
 }
 
+.cmd-btm-sx > i > div:hover {
+    text-shadow: 1px 1px 2px white;
+    cursor: pointer;
+}
+
+.cmd-btm-center > i > div:hover {
+    text-shadow: 1px 1px 5px white;
+    cursor: pointer;
+}
+
 .cmd-footer {
     margin-inline: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 #green {
@@ -109,11 +123,20 @@ i > div {
     margin-top: 21px;
 }
 
+.fa-chevron-up:hover {
+    cursor: pointer;
+    text-shadow: 1px 1px 5px white;
+}
+
 .cmd-btm-dx {
     background-color:#4A4A4A ;
     color: red;
     font-size: 1rem;
     padding: 1.5rem;
     cursor: pointer;
+}
+
+.cmd-btm-dx:hover {
+    text-shadow: 2px 2px 10px red;
 }
 
